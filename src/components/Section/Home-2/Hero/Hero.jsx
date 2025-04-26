@@ -12,14 +12,12 @@ const HeroSection = () => {
                   {/* <li>
                     <img src="/images/v2/rating.png" alt="" />
                   </li> */}
-                  <h3 className="font-12">Seamless Digital Solutions</h3>
+                  <h3 className="head-1">Agile Software Development</h3>
                 </ul>
               </div>
-              <h1>Empower your business to the next level</h1>
+              <h1>Seamless Digital Solutions</h1>
               <p>
-                Our user-friendly and feature-rich CRM tool enables your
-                organization to increase your sales, manage clients, and close
-                deals more efficiently.
+               A passionate and dedicated team to revolutionize your workflow efficiency with our result-oriented digital solutions.
               </p>
               <div className="zubuz-hero-btn-wrap">
                 <Link href="/sign-up" className="zubuz-default-btn pill">
@@ -35,10 +33,10 @@ const HeroSection = () => {
             <div className="zubuz-hero-thumb2">
               <img src="/images/v2/dashboard.png" alt="" />
               <div className="zubuz-hero-shape2">
-                <img src="/images/v2/shape1-v2.png" alt="" />
+                <img src="/images/v2/blob-2.png" alt="" />
               </div>
               <div className="zubuz-hero-shape3">
-                <img src="/images/v2/shape2-v2.png" alt="" />
+                <img src="/images/v2/blob-1.png" alt="" />
               </div>
             </div>
           </div>

@@ -113,7 +113,7 @@ const Header = ({ logoSrc }) => {
     >
       <div className="container">
         <nav className="navbar site-navbar">
-          <BrandLogo imageSrc="/images/logo/logo-white.svg" />
+          <BrandLogo imageSrc="/images/logo/mvtech-logo.png" />
           <div className="menu-block-wrapper">
             <div className="menu-overlay"></div>
             <nav
