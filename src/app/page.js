@@ -9,6 +9,7 @@ import HeroSection from "~/components/Section/Home-2/Hero/Hero";
 import NewsSection from "~/components/Section/Home-1/News/News";
 import TestimonialSection from "~/components/Section/Common/Testimonial/Testimonial";
 import HomeHeader from "~/components/Section/Common/Header/HomeHeader";
+import About from "~/components/Section/Home-2/About";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeHeader />
       <HeroSection />
       <BrandSection />
+      <About/>
       <ContentSectionOne />
       <ContentSectionTwo />
       <FeatureSection />
