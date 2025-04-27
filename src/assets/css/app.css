@@ -1355,6 +1355,19 @@ blockquote {
   height: 100px;
 }
 
+.vbIcon{
+  height: 35px;
+  margin-bottom: 6px;
+}
+
+.headingBrandSection {
+  font-size: 36px;
+}
+
+.techLogo {
+  height: 55px;
+}
+
 @media (max-width: 1199.98px) {
   .rt-mb-lg-0 {
     margin-bottom: 0px;
@@ -4621,7 +4634,7 @@ span.zubuz-title-shape {
 }
 
 .zubuz-brand-item {
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .zubuz-brand-slider2 {
@@ -4646,6 +4659,10 @@ span.zubuz-title-shape {
   .zubuz-brand-logo-wrap {
     padding-bottom: 80px;
   }
+}
+
+.zubuz-brand-slider{
+  margin-top: 30px;
 }
 
 [dir=rtl] .zubuz-brand-slider,
