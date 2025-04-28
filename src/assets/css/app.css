@@ -5991,7 +5991,7 @@ a.zubuz-connect-login img {
 }
 
 .zubuz-section-padding5 {
-  padding: 0 0 130px;
+  padding: 0 0 50px;
 }
 @media (max-width: 991px) {
   .zubuz-section-padding5 {
@@ -6700,4 +6700,17 @@ button#zubuz-notified-btn:hover {
 
 .zubuz-hero-content.center.about-div {
   margin-top: 5em;
+}
+
+
+@media (min-width: 1100px) {
+  .headingFeature{
+    padding-right: 190px;
+  }
+}
+
+@media (min-width:1400px) {
+  .headingFeature{
+    padding-right: 265px;
+  }
 }
