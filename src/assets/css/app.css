@@ -3929,6 +3929,7 @@ span.zubuz-title-shape {
 }
 .zubuz-iconbox-data h3 {
   margin-bottom: 15px;
+  font-size: 18px;
 }
 .zubuz-iconbox-data.data-small p {
   font-size: 18px;
@@ -5953,7 +5954,7 @@ a.zubuz-connect-login img {
 }
 
 .zubuz-section-padding2 {
-  padding: 130px 0;
+  padding: 100px 0;
 }
 @media (max-width: 991px) {
   .zubuz-section-padding2 {
@@ -6675,9 +6676,25 @@ button#zubuz-notified-btn:hover {
   font-size: 60px;
 }
 
+.headingContentOne{
+  font-size: 40px;
+}
+.paraContentOne {
+  font-size: 19px;
+  line-height: 25px;
+}
 @media (max-width: 767px) {
   .headingAbout{
     font-size: 40px;
+  }
+  .headingContentOne{
+    font-size: 23px;
+    padding: 0 50px 0 50px;
+  }
+  .paraContentOne{
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 30px 0 30px;
   }
 }
 
