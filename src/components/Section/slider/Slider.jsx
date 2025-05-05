@@ -30,22 +30,41 @@ const sliderImageUrl = [
       "/images/projects/E-Commerce-App.jpg",
       
   },
+   //Second image
+   {
+    url:"/images/projects/Aveuyor-Display.png"
+  },
+   //Second image
+   {
+    url:"/images/projects/Display-Rustic2.jpg"
+  },
   {
     url:
-      "/images/projects/Fitness-App.jpg"
+      "/images/projects/Workout-App.jpg"
   },
+  {
+    url:"/images/projects/Dreamscape-Display2.jpg"
+  },
+
+  {
+    url:"/images/projects/Dynamo-Display.jpg"
+ },
+ 
+  
+ {
+    url:"/images/projects/Webagency-Display.jpg"  
+   },
   //Second image url
   {
     url:
       "/images/projects/Health-App.jpg"
   },
-  //Third image url
-  {
+ 
+ {
     url:
-      "/images/projects/Workout-App.jpg"
+      "/images/projects/Fitness-App.jpg"
   },
 
-  //Fourth image url
 
 //   {
 //     url:
