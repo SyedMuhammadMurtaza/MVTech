@@ -8,7 +8,7 @@ const Portfolio = () => {
                 <div className="zubuz-section-title zubuz-two-column-title">
                     <div className="row">
                         <div className="col-lg-6">
-                            <h2 className="">Our Portfoli !</h2>
+                            <h2 className="">Our Portfolio !</h2>
                         </div>
                         <div className="col-lg-6 d-flex align-items-center">
                             <p>
