@@ -1,0 +1,45 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } */
+
+  .containerPortfolio{
+    padding: 0 0 0 50px;
+  }
+  .parent{
+    background: transparent;
+    margin-top: 50px;
+  }
+  
+  .slider {
+    margin:0 7px;
+    overflow:"hidden";
+    padding:2rem 0;
+  }
+  
+  .slider img {
+    width: 100%;
+    border-radius:10px;
+  }
+  
+  .react-multi-carousel-list {
+  padding: 0rem 0 0rem 0;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgb(255, 68, 68);
+  }
+  .react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: rgb(255, 68, 68) !important;
+  }
+
+  .headingPortfolio{
+    font-size: 53px;
+    margin-bottom: 20px;
+  }
+  .paraPortfolio{
+    font-size: 17px;
+    line-height: 19px;
+  }
