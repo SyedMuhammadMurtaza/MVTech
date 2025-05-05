@@ -7,19 +7,18 @@ const Cta = () => {
         <div className="row">
           <div className="col-lg-7 order-lg-2 d-flex align-items-center">
             <div className="zubuz-default-content light">
-              <h2>Start managing your money now!</h2>
+              <h2>Start Showcasing Your Business Now!</h2>
               <p>
-                Your financial future is just a download away. Get our app and
-                experience the benefits of better money management.
+                Get in touch to have a free quote of how we can help your business grow digitally.
               </p>
               <div className="zubuz-extara-mt">
                 <div className="zubuz-app-wrap">
-                  <Link className="zubuz-app" href="contact-us">
-                    <img src="/images/v1/play-store.png" alt="" />
-                  </Link>
-                  <Link className="zubuz-app" href="contact-us">
-                    <img src="/images/v1/app-store.png" alt="" />
-                  </Link>
+                <Link
+              className="zubuz-default-btn zubuz-header-btn button-cta"
+              href="contact-us"
+            >
+              <span>Contact Us</span>
+            </Link>
                   <div className="zubuz-cta-shape">
                     <img src="/images/v1/shape2.png" alt="" />
                   </div>

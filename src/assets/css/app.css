@@ -1939,7 +1939,12 @@ header.zubuz-header-section.white-menu.sticky-menu {
 }
 
 .zubuz-footer-section.main-footer {
-  border-top: 1px solid var(--light-color);
+  /* border-top: 1px solid var(--light-color); */
+  background-color: black;
+}
+.paraFooter{
+  font-size: 16px;
+  line-height: 18px;
 }
 .zubuz-footer-top {
   padding: 130px 0 100px;
@@ -2036,7 +2041,8 @@ header.zubuz-header-section.white-menu.sticky-menu {
   padding: 33px 0;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid var(--light-color);
+  /* border-top: 1px solid var(--light-color); */
+  
 }
 @media (max-width: 767px) {
   .zubuz-footer-bottom {
@@ -6713,4 +6719,21 @@ button#zubuz-notified-btn:hover {
   .headingFeature{
     padding-right: 265px;
   }
+}
+
+.button-cta{
+  border: solid 1px #abfb4f;
+  border-radius: 15px;
+}
+
+.logoFooter{
+  width: 75%;
+  margin-left: -14px;
+}
+
+.footerIcon{
+  fill: white;
+}
+.footerText{
+  color:white
 }
