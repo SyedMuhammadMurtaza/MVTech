@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Cta = () => {
   return (
-    <div className="zubuz-cta-section blue-bg">
+    <div className="zubuz-cta-section blue-bg" id="cta">
       <div className="container">
         <div className="row">
           <div className="col-lg-7 order-lg-2 d-flex align-items-center">

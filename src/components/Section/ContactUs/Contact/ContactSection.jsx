@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { FaTwitter, FaFacebookF, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaTwitter, FaFacebookF, FaLinkedin, FaGithub, FaMapMarker, FaMapMarkerAlt } from "react-icons/fa";
+import ContactForm from '../../ContactForm'
 
 const ContactSection = () => {
   return (
@@ -17,8 +18,13 @@ const ContactSection = () => {
               <div className="zubuz-extara-mt">
                 <div className="zubuz-iconbox-wrap-left d-block">
                   <div className="zubuz-iconbox-data data-small">
-                    <span>Office Location:</span>
-                    <p>4132 Thornridge City, New York.</p>
+                    <span style={{marginBottom:"30px"}}>Office Location:</span>
+                    <ul>
+                      
+                      <li style={{display:'flex', alignItems:'center', marginTop:'15px'}}><span> <FaMapMarkerAlt style={{color:"#ee7a34"}}/></span><p className="paraLocation"> <b> Dubai, UAE </b> <br/> Senitinel Business Center </p> </li>
+                      <li style={{display:'flex', alignItems:'center', marginTop:'20px'}}><span> <FaMapMarkerAlt style={{color:"#ee7a34"}}/></span><p className="paraLocation"> <b>  Toronto, Canada </b> <br/> Industrious Office Yonge & Bloor </p> </li>
+                      <li style={{display:'flex', alignItems:'center', marginTop:'20px'}}><span> <FaMapMarkerAlt style={{color:"#ee7a34"}}/></span><p className="paraLocation"> <b> Karachi, Pakistan </b> <br/> 603 6th Floor Elite Tower </p> </li>
+                    </ul>
                   </div>
                 </div>
                 <div className="zubuz-iconbox-wrap-left d-block">
@@ -54,35 +60,7 @@ const ContactSection = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="zubuz-form-wrap">
-              <h3>Fill the from below</h3>
-              <form action="#">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className="zubuz-main-form">
-                      <input type="text" placeholder="Your Name*" />
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="zubuz-main-form">
-                      <input type="email" placeholder="Email Address*" />
-                    </div>
-                  </div>
-                </div>
-                <div className="zubuz-main-form">
-                  <input type="text" placeholder="Subject" />
-                </div>
-                <div className="zubuz-main-form">
-                  <textarea
-                    name="textarea"
-                    placeholder="Write us your comment"
-                  ></textarea>
-                </div>
-                <button id="zubuz-submit-btn" type="button">
-                  <span>Send Message</span>
-                </button>
-              </form>
-            </div>
+              <ContactForm/>
           </div>
         </div>
       </div>

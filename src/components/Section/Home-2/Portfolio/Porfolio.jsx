@@ -3,6 +3,8 @@ import Slider from '../../slider'
 
 const Portfolio = () => {
     return (
+        <>
+        <div id='projects'></div>
         <div className="section zubuz-section-padding2 light-bg">
             <div className="container">
                 <div className="zubuz-section-title zubuz-two-column-title">
@@ -22,9 +24,8 @@ const Portfolio = () => {
                 </div>
             </div>
         </div>
-        // <div>
-        //   <Slider/>
-        // </div>
+       
+        </>
     )
 }
 

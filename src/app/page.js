@@ -8,12 +8,14 @@ import HeroSection from "~/components/Section/Home-2/Hero/Hero";
 import Portfolio from "~/components/Section/Home-2/Portfolio/Porfolio";
 
 import HomeHeader from "~/components/Section/Common/Header/HomeHeader";
+import { Header } from "~/components/Section/Common/Header";
 import About from "~/components/Section/Home-2/About";
 
 export default function Home() {
   return (
     <>
-      <HomeHeader />
+    <Header/>
+      {/* <HomeHeader /> */}
       <HeroSection />
       <BrandSection />
       <About/>

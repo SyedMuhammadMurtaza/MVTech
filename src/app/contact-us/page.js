@@ -12,8 +12,8 @@ const ContactUsPage = () => {
       <Header />
       <PageHeader title="Contact Us" />
       <ContactSection />
-      <CallUs />
-      <FAQSection />
+      {/* <CallUs />
+      <FAQSection /> */}
       <Footer />
     </>
   );

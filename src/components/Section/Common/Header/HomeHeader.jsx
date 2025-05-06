@@ -154,6 +154,11 @@ const HomeHeader = ({ logoSrc, roundedBtn }) => {
                 </div>
               </div>
               <ul className="site-menu-main" onClick={menuMainClickHandler}>
+              <li className="nav-item">
+                  <Link href="/" className="nav-link-item">
+                    Home
+                  </Link>
+                </li>
                 <li className="nav-item nav-item-has-children">
                   <Link href="" className="nav-link-item drop-trigger">
                     Demo{" "}

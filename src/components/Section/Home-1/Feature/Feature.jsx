@@ -17,7 +17,7 @@ const FeatureSection = () => {
   
 
   return (
-    <div className="section zubuz-section-padding3 light-bg">
+    <div className="section zubuz-section-padding3 light-bg" id="about">
       <div className="container">
       <div className="zubuz-section-title zubuz-two-column-title">
           <div className="row">

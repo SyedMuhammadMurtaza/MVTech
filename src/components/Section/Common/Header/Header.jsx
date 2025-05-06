@@ -108,7 +108,7 @@ const Header = ({ logoSrc }) => {
 
   return (
     <header
-      className="site-header site-header--menu-center zubuz-header-section dark-bg white-menu"
+      className="site-header site-header--menu-center zubuz-header-section white-bg black-menu"
       id="sticky-menu"
     >
       <div className="container">
@@ -134,7 +134,12 @@ const Header = ({ logoSrc }) => {
                 </div>
               </div>
               <ul className="site-menu-main" onClick={menuMainClickHandler}>
-                <li className="nav-item nav-item-has-children">
+              <li className="nav-item">
+                  <Link href="/" className="nav-link-item">
+                    Home
+                  </Link>
+                </li>
+                {/* <li className="nav-item nav-item-has-children">
                   <Link href="#" className="nav-link-item drop-trigger">
                     Demo{" "}
                     <i>
@@ -158,13 +163,23 @@ const Header = ({ logoSrc }) => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="nav-item">
-                  <Link href="/about-us" className="nav-link-item">
+                  <Link href="/#about" className="nav-link-item">
                     About Us
                   </Link>
                 </li>
-                <li className="nav-item nav-item-has-children">
+                <li className="nav-item">
+                  <Link href="/#services" className="nav-link-item">
+                  Services
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link href="/#projects" className="nav-link-item">
+                  Portfolio
+                  </Link>
+                </li>
+                {/* <li className="nav-item nav-item-has-children">
                   <Link href="" className="nav-link-item drop-trigger">
                     Pages{" "}
                     <i>
@@ -343,8 +358,8 @@ const Header = ({ logoSrc }) => {
                       </ul>
                     </li>
                   </ul>
-                </li>
-                <li className="nav-item nav-item-has-children">
+                </li> */}
+                {/* <li className="nav-item nav-item-has-children">
                   <Link href="#" className="nav-link-item drop-trigger">
                     Blog{" "}
                     <i>
@@ -373,7 +388,7 @@ const Header = ({ logoSrc }) => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link href="/contact-us" className="nav-link-item">
                     Contact Us
@@ -385,15 +400,15 @@ const Header = ({ logoSrc }) => {
 
           <div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
             <div className="zubuz-header-btn-wrap">
-              <Link className="zubuz-login-btn" href="sign-in">
+              {/* <Link className="zubuz-login-btn" href="sign-in">
                 Login
-              </Link>
+              </Link> */}
             </div>
             <Link
               className="zubuz-default-btn zubuz-header-btn"
-              href="contact-us"
+              href="/#cta"
             >
-              <span>Get Started</span>
+              <span>Get A Free Demo</span>
             </Link>
           </div>
           <div

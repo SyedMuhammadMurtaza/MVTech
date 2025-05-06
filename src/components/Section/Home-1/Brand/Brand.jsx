@@ -2,7 +2,9 @@ import Marquee from "react-fast-marquee";
 
 const BrandSection = () => {
   return (
-    <div className="section dark-bg zubuz-section-padding4">
+    <>
+    <div id="tech" style={{ paddingBottom:"20px" }}></div>
+    <div className="section dark-bg zubuz-section-padding4" >
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
@@ -72,6 +74,7 @@ const BrandSection = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

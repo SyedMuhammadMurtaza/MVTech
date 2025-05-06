@@ -20,10 +20,10 @@ const HeroSection = () => {
                A passionate and dedicated team to revolutionize your workflow efficiency with our result-oriented digital solutions.
               </p>
               <div className="zubuz-hero-btn-wrap">
-                <Link href="/sign-up" className="zubuz-default-btn pill">
-                  <span>Sign up for free</span>
+                <Link href="/#tech" className="zubuz-default-btn pill">
+                  <span>Discover more</span>
                 </Link>
-                <Link href="/service" className="zubuz-login-btn m-0">
+                <Link href="/" className="zubuz-login-btn m-0">
                   View all features
                 </Link>
               </div>

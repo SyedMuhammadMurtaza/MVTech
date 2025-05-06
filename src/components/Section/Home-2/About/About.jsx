@@ -1,7 +1,10 @@
+
 import React from 'react'
 
 const About = () => {
   return (
+    <>
+    <div id='services' ></div>
     <div className="zubuz-hero-content center about-div">
     <h1 className='headingAbout'>
       Shaping & Evolving <br/> Digital Solutions
@@ -15,7 +18,9 @@ const About = () => {
       need and provides powerful technology solutions.
     </p> */}
       </div>
+      </>
   )
 }
+
 
 export default About

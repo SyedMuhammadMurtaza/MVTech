@@ -6,12 +6,12 @@ const PageHeader = ({ title }) => {
       <div className="container">
         <h1 className="post__title">{title}</h1>
         <nav className="breadcrumbs">
-          <ul>
+          {/* <ul>
             <li>
               <Link href="/">Home</Link>
             </li>
             <li aria-current="page">{" "}{title}</li>
-          </ul>
+          </ul> */}
         </nav>
       </div>
     </div>
